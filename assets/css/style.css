@@ -1,0 +1,22 @@
+.slider-controls {
+  visibility: hidden;
+}
+
+.slider__container:hover .slider-controls {
+  visibility: visible;
+}
+
+.header__container {
+  border-bottom: 4px solid #87bd25;
+}
+
+.header__container nav {
+  margin-bottom: 0px;
+}
+
+.header__container nav ul {
+  position: absolute;
+  margin-top: 75px;
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */

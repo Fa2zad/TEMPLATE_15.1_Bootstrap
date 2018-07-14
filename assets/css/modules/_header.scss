@@ -1,0 +1,17 @@
+// File Name: _header.scss
+// Description: global header styles
+// Used by: Page.scss
+// Dependencies:
+// ------------------------------------------------------------
+.header__container{
+    border-bottom: 4px solid $mainColor;
+    nav{
+        margin-bottom: 0px;
+        ul{
+            position: absolute;
+            margin-top: 75px;
+            right: 0;
+        }
+    }
+
+}

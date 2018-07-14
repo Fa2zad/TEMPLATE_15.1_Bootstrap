@@ -1,0 +1,17 @@
+// File Name: _golbal.scss
+// Description: global styles
+// Used by: Page.scss
+// Dependencies:
+// ------------------------------------------------------------
+
+// slider
+.slider-controls{
+    visibility: hidden;
+}
+.slider__container{
+    &:hover{
+        .slider-controls{
+            visibility: visible;
+        }
+    }
+}
