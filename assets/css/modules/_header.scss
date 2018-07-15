@@ -3,8 +3,11 @@
 // Used by: Page.scss
 // Dependencies:
 // ------------------------------------------------------------
+// Header
 .header__container{
     border-bottom: 4px solid $mainColor;
+
+    //navigation
     nav{
         margin-bottom: 0px;
         ul{
@@ -14,4 +17,24 @@
         }
     }
 
+    
+}
+
+// search box
+.search__container form{
+    position: relative;
+    img{
+        position: absolute;
+        left: 17px;
+        top: 1px;
+    }
+
+    input.search-input{
+        border-radius: unset;
+        border: 1px solid #b8c7d0;
+        box-shadow: unset;
+        width: 172px;
+        height: 32px;
+
+    }
 }

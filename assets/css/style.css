@@ -1,4 +1,16 @@
-.slider-controls {
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/vazir/Vazir-Medium.ttf");
+  src: url("../fonts/vazir/Vazir-Medium.eot");
+  src: url("../fonts/vazir/Vazir-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/vazir/Vazir-Medium.woff") format("woff"), url("../fonts/vazir/Vazir-Medium.ttf") format("truetype");
+}
+
+body {
+  font-size: 14px;
+  font-family: Vazir, Tahoma, Arial, sans-serif;
+}
+
+.slider__container .slider-controls {
   visibility: hidden;
 }
 
@@ -18,5 +30,32 @@
   position: absolute;
   margin-top: 75px;
   right: 0;
+}
+
+.search__container form {
+  position: relative;
+}
+
+.search__container form img {
+  position: absolute;
+  left: 17px;
+  top: 1px;
+}
+
+.search__container form input.search-input {
+  border-radius: unset;
+  border: 1px solid #b8c7d0;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  width: 172px;
+  height: 32px;
+}
+
+body {
+  direction: rtl;
+}
+
+body .slider__container {
+  direction: ltr;
 }
 /*# sourceMappingURL=style.css.map */

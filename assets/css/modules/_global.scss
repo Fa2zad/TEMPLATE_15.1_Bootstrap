@@ -3,12 +3,21 @@
 // Used by: Page.scss
 // Dependencies:
 // ------------------------------------------------------------
+body{
+    font-size: $regularFontSize;
+    font-family: $vazir;
+}
+
 
 // slider
-.slider-controls{
-    visibility: hidden;
-}
+
 .slider__container{
+
+    .slider-controls{
+        visibility: hidden;
+    }
+
+
     &:hover{
         .slider-controls{
             visibility: visible;
