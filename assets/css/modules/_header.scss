@@ -5,18 +5,37 @@
 // ------------------------------------------------------------
 // Header
 .header__container{
-    border-bottom: 4px solid $mainColor;
+    height: 120px;
 
     //navigation
     nav{
         margin-bottom: 0px;
         ul{
             position: absolute;
-            margin-top: 75px;
+            margin-top: 69px;
             right: 0;
+            padding-right: 26px;
+            li{
+                float: right;
+            }
+
+            a{
+                color: $regularFontColor;
+                &:hover, &:active, &:focus{
+                    background-color: $primeryColor;
+                    color: white;
+                }
+            }
         }
     }
 
+
+    .header-brand{
+        span{
+            background-color: $regularFontColor;
+
+        }
+    }
     
 }
 
@@ -35,6 +54,21 @@
         box-shadow: unset;
         width: 172px;
         height: 32px;
-
+        font-size: 11px;
+        font-family: Tahoma;
+        padding: 6px 6px 6px 30px;
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: #bfbfbf;
+          }
+          &::-moz-placeholder { /* Firefox 19+ */
+            color: #bfbfbf;
+          }
+          &:-ms-input-placeholder { /* IE 10+ */
+            color: #bfbfbf;
+          }
+          &:-moz-placeholder { /* Firefox 18- */
+            color: #bfbfbf;
+          }
+        
     }
 }

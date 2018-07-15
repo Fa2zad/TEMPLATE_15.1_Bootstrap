@@ -15,20 +15,22 @@
                 <div class="container-fluid">
                 
                     <!-- BRAND -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#alignment-example" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a href="#">
-                            <img src="assets/images/logo.png" alt="">
-                        </a>
+                    <div class="header-brand">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myMenu" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#">
+                                <img src="assets/images/logo.png" alt="">
+                            </a>
+                        </div>
                     </div>
                     
                     <!-- COLLAPSIBLE NAVBAR -->
-                    <div class="collapse navbar-collapse" id="alignment-example">
+                    <div class="collapse navbar-collapse" id="myMenu">
                     
                     <!-- Links -->
                     <ul class="nav navbar-nav">
@@ -88,11 +90,11 @@
                 <!-- Previous/Next controls -->
                 <div class="slider-controls">
                         <a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
-                            <span class="icon-prev" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
                         <a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
-                            <span class="icon-next" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
                 </div>
@@ -100,24 +102,112 @@
             </div>
         </section>
         <!-- contents -->
-        <div class="container">
-            <section>
-                main section 1
-            </section>
-            <!-- products -->
-            <section>
-                main section 2
-            </section>
-        </div>
+        <section class="contents__container">
+            <div class="container">
+                <div class="col-sm-3">
+                    <div class="contents-camera">
+                        <img class="img-responsive" src="assets/images/camera.png"  alt="">
+                    </div>
+                    <a href="#">دوربین های مدار بسته</a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="contents-network">
+                        <img class="img-responsive" src="assets/images/network.png"  alt="">
+                    </div>
+                    <a href="#">شبکه های کامپیوتری</a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="contents-fire">
+                        <img class="img-responsive" src="assets/images/fire.png"  alt="">
+                    </div>
+                    <a href="#">سیستم های اعلام و اطفاء حریق</a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="contents-wireless">
+                        <img class="img-responsive" src="assets/images/wireless.png"  alt="">
+                    </div>
+                    <a href="#">لینک های وایرلس (ارتباط نقصه به نقطه)</a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="contents-products">
+                        <img class="img-responsive" src="assets/images/products.png"  alt="">
+                    </div>
+                    <a href="#">محصولات</a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="contents-cv">
+                        <img class="img-responsive" src="assets/images/cv.png"  alt="">
+                    </div>
+                    <a href="#">رزومه گروه پژاک</a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="contents-about">
+                        <img class="img-responsive" src="assets/images/about.png"  alt="">
+                    </div>
+                    <a href="#">درباره گروه پژاک</a>
+                </div>
+                <div class="col-sm-3">
+                    <div class="contents-contact">
+                        <img class="img-responsive" src="assets/images/contact.png"  alt="">
+                    </div>
+                    <a href="#">تماس با گروه پژاک</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- products -->
+        <section class="products__container">
+            <div class="container">
+                <h2>محصولات</h2>
+                <hr />
+                <div>
+                    ماژول خود را در این قسمت قرار دهید
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer class="footer__container">
         <div class="container">
-            <section>
-                footer section 1
+            <section class="col-sm-6">
+                <a href="#"><img src="assets/images/footer-logo.png" alt=""></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">صفحه نخست</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">تماس با ما</a></li>
+                    </ul>
+                </nav>
             </section>
-            <section>
-                footer section 2
+            <section class="col-sm-6">
+                <div class="footer-left">
+                    <nav>
+                            <ul class="footer-social">
+                                <li><a href="#"><img src="assets/images/social.png" alt="facebook" class="facebook" title="facebook"></a></li>
+                                <li><a href="#"><img src="assets/images/social.png" alt="twitter" class="twitter" title="twitter"></a></li>
+                                <li><a href="#"><img src="assets/images/social.png" alt="gplus" class="gplus" title="gplus"></a></li>
+                                <li><a href="#"><img src="assets/images/social.png" alt="youtube" class="youtube" title="youtube"></a></li>
+                                <li><a href="#"><img src="assets/images/social.png" alt="rss" class="rss" title="rss"></a></li>
+                            </ul>
+                        </nav>
+                        <p>
+                            کلیه حقوق این وب سایت محفوظ می باشد<br />
+                            Copyright &copy; 2014 - All rights reserved.<br />
+                            طراحی سایت و بهینه سازی سایت توسط پورتال فراتک
+                        </p>
+                </div>
             </section>
         </div>
     </footer>

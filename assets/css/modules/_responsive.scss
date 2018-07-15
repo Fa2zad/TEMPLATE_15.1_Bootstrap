@@ -1,0 +1,120 @@
+//-----------------------------------------//
+//            max-width: 992px             //
+//-----------------------------------------//
+@media (max-width: 992px){
+
+    // header
+        // navigation menu
+        .header__container nav ul a {
+            font-size: small;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+}
+
+//-----------------------------------------//
+//            max-width: 767px             //
+//-----------------------------------------//
+@media (max-width: 767px){
+
+    // header
+    .header__container{
+        height: 60px;
+        display: contents;
+
+        // brand logo
+        .header-brand{
+            img {
+                float: left;
+                height: 56px;
+            }
+        }
+
+        //navigation
+        nav{
+            margin-bottom: 20px;
+            display: contents;
+            
+            ul{
+                z-index: 1000;
+                position: relative;
+                margin-top: 2px;
+                width: 100%;
+                margin-right: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+                background: white;
+                li{
+                    float: unset;
+                }
+
+            }
+        }
+
+        // search box
+        .search__container form{
+            position: relative;
+            img{
+                top: 10px;
+            }
+
+            input.search-input{
+               
+                width:  100%;
+                
+                padding: 6px 6px 6px 30px;
+                
+                
+            }
+        }
+    }// header
+
+    // content
+    .contents__container{
+        div>div{
+            float: unset;
+        }
+        
+    }
+    // footer
+    .footer__container{
+        padding: 20px 5px;
+        &>div>section{
+            float: none;
+            text-align: center;
+            ul{
+                display: inline-flex;
+            }
+        }
+    }
+
+}
+
+
+//-----------------------------------------//
+//            max-width: 521px             //
+//-----------------------------------------//
+@media (max-width: 521px){
+
+
+    // slideer
+    .slider__container img{
+        min-height: 140px;
+
+    }
+}
+
+
+//-----------------------------------------//
+//            min-width: 768px             //
+//-----------------------------------------//
+@media (min-width: 767px){
+
+    // footer
+    .footer__container{
+
+        &>div>section{
+            float: right;
+        }
+    }
+}
